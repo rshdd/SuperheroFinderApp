@@ -4,10 +4,7 @@ I created this Finder App coneccting to the [Superhero API](https://superheroapi
 ## Installation
 To setup our enviroment running smooth we have to install the LiveServer extension in VScode
 
-Your app should now be running on localhost:3000
-
-You can visit my Superhero Finder App deployed in Heroku in:
-[Superhero Finder App]()
+Your app should now be running on localhost
 
 ## Contributing
 Pull request are off for this project
