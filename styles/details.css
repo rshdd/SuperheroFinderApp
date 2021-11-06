@@ -7,30 +7,30 @@
 
 *{
     font-family: 'Bangers', cursive;
-    color: #9ba7af;
+    color: #c1c7ca;
     background-color: #082032;
 }
 
 #alert{
     position: fixed;
-    top: 30px;
-    border-radius: 10px;
+    top: 19px;
+    border-radius: 5px;
     z-index: 99;
     width: max-content;
     text-align: center;
     padding: 5px;
     float: right;
-    right: 250px;
+    right: 205px;
     transition-duration: 800ms;
 }
 
 .success{
-    color: #637685;
+    color: #c1c7ca;
     background-color: #334756;
 }
 
 .failure{
-    color: #637685;
+    color: #c1c7ca;
     background-color: #334756;
 }
 
@@ -45,14 +45,14 @@ body{
 
 header{
     position: fixed;
-    top: 0px;
+    top: 1px;
     left: 0px;
     width: 100%;
-    height: 80px;
+    height: 65px;
     margin: auto;
     display: inline-flex;
     justify-content: space-between;
-    box-shadow: 0px 0px 15px 0px #FF4C29;
+    box-shadow: 0px 0px 0px 1px #FF4C29;
     z-index: 99;
 }
 
@@ -66,11 +66,11 @@ header *{
 }
 
 .favourite-router *:hover{
-    color: #082032;
+    color: #83909b;
 }
 
 .app-name{
-    padding-left: 20px;
+    padding-left: 45px;
 }
 
 .app-name a{
@@ -79,7 +79,11 @@ header *{
 }
 
 header button{
-    margin-right: 20px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #FF4C29;
+    border-radius: 10px;
+    margin-right: 30px;
 }
 
 header button a{
@@ -102,46 +106,41 @@ header button a{
 
 #top-bar{
     position: fixed;
-    top: 80px;
+    top: 67px;
     left: 0px;
     width: 100%;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    box-shadow: 0px 0px 15px 0px #FF4C29;
+    box-shadow: 0px 0px 0px 1px #FF4C29;
     z-index: 10;
 }
 
 #top-bar *{
-    padding: 20px 0px 20px 0px;
+    padding: 21px 0px 20px 0px;
     text-decoration: none;
 }
 
 #top-bar *:hover{
-    color: #FF4C29;
+    color: #fd7155;
 }
 
 .anchor{
     display: block;
-    height: 200px; /*same height as header*/
-    margin-top: -200px; /*same height as header*/
+    height: 150px; /*same height as header*/
+    margin-top: -150px; /*same height as header*/
     visibility: hidden;
 }
 
-
 #data-container{
     position: relative;
-    margin-top: 200px;
+    margin-top: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: left;
-
     background-color: rgba(0, 0, 0, 0);
-
 }
 
 #image{
@@ -154,22 +153,24 @@ header button a{
 }
 
 #fav_btn{
-    margin-top: 30px;
-    box-shadow: 0px 0px 15px 0px #FF4C29;
+    margin-top: 25px;
+    box-shadow: 0px 0px 0px 0px #FF4C29;
     border-radius: 100%;
 }
 
 #detail-container{
     position: relative;
-    width: 70%;
+    width: 100%;
 }
 
 .detail-item{
-    padding: 20px;
-    width: 80%;
+    padding: 25px;
+    width: 85%;
 }
 
+/* Stats */
 #stats-container{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -180,28 +181,30 @@ header button a{
     display: flex;
     flex-direction: column;
     width: fit-content;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 #stat-names span{
     display: block;
-    padding: 15px;
-    font-weight: bold;
+    padding: 5px;
+    padding-left: 5px;
 }
 
 #stat-bars{
-    width: 80%;
+    width: 90%;
+    font-size: .9rem;
 }
 
 .bar-container{
     background-color: rgba(0, 0, 0, 0);
-    width: 60%;
-    padding: 5px;
+    width: 90%;
+    padding: 3px 0px 2px 0px;
+    margin-top: 3px;
 }
 
 .bar{
     background-color: #FF4C29;
-    border-radius: 10px;
-    padding: 10px;
-    transition-duration: 600ms;
+    border-radius: 5px;
+    padding: 2px 0px 2px 0px;
+    padding-left: 5px;
 }
